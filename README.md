@@ -80,3 +80,8 @@ python -m pytest -q                # checks the output files
 | LightGBM, including unusual-price rows | $113.9 |
 
 The final validation metrics are calculated by the company after submission.
+## December chart
+
+Produced by `score.py` for one fixed load (Lexington to Fort Wayne, 360 miles, Dry Van, 32,000 lb) where only the date changes.
+
+![December 2025 predicted load rate](scorer_results/candidate_december.png)
